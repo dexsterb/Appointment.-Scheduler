@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="433.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+
+    <HBox alignment="CENTER" spacing="20.0" />
+
+    <HBox alignment="CENTER" spacing="20.0" />
+
+    <Button fx:id="loginButton" layoutX="98.0" layoutY="219.0" onAction="#loginControl" prefHeight="30.0" prefWidth="151.0" text="Login" />
+     <Label layoutX="28.0" layoutY="148.0" text="Password: " />
+     <PasswordField fx:id="passwordField" layoutX="98.0" layoutY="144.0" promptText="Enter your password" />
+     <TextField fx:id="usernameField" layoutX="98.0" layoutY="104.0" promptText="Enter your username" />
+     <Label layoutX="26.0" layoutY="108.0" text="Username: " />
+   <Button fx:id="exitButton" layoutX="98.0" layoutY="259.0" onAction="#exitButton" prefHeight="30.0" prefWidth="151.0" text="Exit" />
+    <HBox alignment="CENTER" spacing="20.0" />
+    <Label fx:id="timeZoneLabel" layoutX="110.0" layoutY="382.0" text="TIME/ZONE" />
+   <Text layoutX="190.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN" wrappingWidth="165.54644775390625">
+      <font>
+         <Font name="System Bold" size="48.0" />
+      </font>
+   </Text>
+
+</AnchorPane>
